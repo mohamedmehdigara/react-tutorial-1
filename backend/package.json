@@ -4,18 +4,35 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "react-scripts start"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "@babel/core": "^7.18.5",
+    "@pmmmwh/react-refresh-webpack-plugin": "^0.5.7",
+    "asn1": "^0.2.6",
+    "assert-plus": "^1.0.0",
+    "async-hooks": "^1.3.1",
+    "babel-loader": "^8.2.5",
     "body-parser": "^1.18.3",
     "cors": "^2.8.4",
     "express": "^4.16.4",
-    "express-jwt": "^5.3.1",
+    "express-jwt": "^7.7.5",
     "helmet": "^3.14.0",
+    "html-webpack-plugin": "^5.5.0",
     "jwks-rsa": "^1.3.0",
-    "morgan": "^1.9.1"
-  }
+    "morgan": "^1.9.1",
+    "react-scripts": "^2.1.3",
+    "source-map-loader": "^4.0.0",
+    "utils": "^0.2.2"
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ]
 }
